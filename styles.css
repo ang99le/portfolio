@@ -120,14 +120,11 @@ body{
 display: flex;
 font-weight:bold;
 margin-top: 80px;
-/* position: absolute;
-top:157px;
-left:50px;   */
+
 }
 .navigation button:hover{
     background-color: bisque;
     border-radius: 5px;
-    /* padding:3px; */
 }
 
  button{
@@ -166,12 +163,12 @@ li:hover{
        }
        .github{
      
-        width:70px;
-        height:70px;
+        width:30px;
+        height:30px;
     }
     .linkedin{
-        width:70px;
-        height:70px;
+        width:30px;
+        height:30px;
       
      
     }
@@ -190,7 +187,7 @@ li:hover{
              font-style:normal;
             line-height: 1.7;
             color: #85622f;
-            font-size:2rem
+            font-size:1rem
         }
 
     #bg-img{
@@ -206,38 +203,30 @@ li:hover{
     #detective{
        justify-content: center;
        align-items: center;
-       width:400px;
-       height:400px;
+       margin-top: 1rem;
+       width:200px;
+       height:200px;
    }
-   
+   .infos h1{
+    font-size:2rem;
+   }
+
     .infos{
-       color:rgb(48, 33, 1);
-        font-size:2.4rem;  
+       color:rgb(48, 33, 1); 
         text-align:center;
         justify-content: center;
         align-items: center;
     } 
-   .infos h1{
-    font-size:4rem;
-   }
-   
-   .sec{
-    display: flex;
-    flex-wrap: wrap;
-
-   }
-
-
+ 
    #detect{
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
    }
    
    .skillscontent{
     box-shadow: 0 4px 8px 0 #88818133;
     height:250px;
     width:200px;
-    /* padding:3rem 24rem 24rem 24rem; */
     background-color: antiquewhite;
    }
 
@@ -246,22 +235,26 @@ li:hover{
     text-align:center;
    }
    .hat{
-    
-       width:300px;
-       height:300px;
+       width:200px;
+       height:200px;
+       justify-content: center;
+       align-items: center;
      
    }
    .aboutme{
-    border: solid 3px orangered;
-    display: flex;
-  
-
+    border:solid 3px orangered;
+          
+   }
+   .About{
+    justify-content: center;
+    align-items: center;
    }
    .cards{
        background-color: rgb(216, 194, 161);
-        border:10px solid #793f10be;
-        width:90rem;
-        height:55rem;
+        border:5px solid #793f10be;
+        width:95%;
+        margin-left: 1rem;
+        height:35rem;
         display:grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -272,10 +265,11 @@ li:hover{
        font-style: normal;
    }
    #flower{
-       width:200px;
-       height:200px;
+       width:90px;
+       height:90px;
    }
    .flowersShop{
+    position: relative;
    justify-items: center;
    align-items: center; 
    box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
@@ -285,10 +279,10 @@ li:hover{
    border-radius:5px ;
    background-color: white;
    grid-area: 1 / 2 / 2 / 3;
-   width:300px;
-   height:300px; 
-   top:37px;  
-   left:600px;         
+   width:170px;
+   height:170px; 
+   top:3rem; 
+   left:18rem ;        
    }
    #pin{
        padding-right:7px;
@@ -311,8 +305,8 @@ li:hover{
        font-style: normal;    
    }
    #yo{
-    width:200px;
-    height:200px;
+    width:90px;
+    height:90px;
    }
    .Yu-Gi{
        position:relative;
@@ -324,217 +318,17 @@ li:hover{
        padding:7px;   
        background-color: white;
        border-radius:5px;
-       width:300px;
-       height:300px; 
-       left:-300px;  
-       bottom:-40px;
+       width:170px;
+       height:170px; 
+       left:-10rem;  
+       bottom:-3rem;
        grid-area: 1 / 3 / 2 / 4; 
       }
    
   
-    .infos h1{
-     font-size:6rem;
-    }
-    
-    .About{
-     text-align:center;  
-     font-size:2rem;
-    } 
-
-  #detect{
-    top:70rem
-  }
-  
-  
-  @media (min-width:768px) and (max-width:1024px){
-    #bg-img1{
-     display:none;
- 
- }
-     #bg-img{
-         display:block;
-         /* width:100rem; */
-         height:77rem;
-     }
- 
-     .sec{
-         display: flex;
-         flex-direction:row;
-        
-         
-     }
-     #detective{
-         position:relative;
-         top:-50rem;
-         left:40rem;
-         justify-content: center;
-         align-items: center;
-         width:450px;
-         height:450px;
-     }
-     
-      .infos{
-         position:relative;
-         top:-55rem;
-         left:30rem;
-         color:rgb(48, 33, 1);
-        
-      } 
-     .infos h1{
-      font-size:3.5rem;
-     }
-     .aboutme{
-         display:flex;
-     }
-      .About{
-      bottom:15rem;
-      left:55rem;
-      font-size:23rem;
-     } 
- #detect{
-    
-     width:500px;
-     height:500px;
- }
- .skills{
-     padding-top:45rem;
-     display:flex;
-     justify-content: center;
-     align-items: center;
- }
- 
- .skillscontent{
-  z-index:-1;
-  /* position:relative; */
-  box-shadow: 0 4px 8px 0 #88818133;
-  bottom:45rem;
-  height:250px;
-  width:200px;
-  padding:3rem 40rem 30rem 5rem;
-  background-color: antiquewhite;
-  font-family: "Arsenal", sans-serif;
-   font-style:normal;
-  line-height: 1.7;
-  color: #85622f;
-  font-size:2rem
- }
- 
- .skillscontent p{
-  font-size:4rem;
-  text-align:center;
- 
- }
- .skillscontent h4{
-     font-size:50px;
- 
-   
-    }
-  
-    .hat{
-   
-        width:500px;
-        height:500px;
-       
-    }
-    
-    .cards{
-        background-color: rgb(216, 194, 161);
-         border:10px solid #793f10be;
-         width:123rem;
-         height:80rem;
-         display: grid;
-         grid-template-columns: repeat(5, 1fr);
-         grid-template-rows: repeat(5, 1fr);
-         grid-column-gap: 0px;
-         grid-row-gap: 0px;
-        font-family: "Arsenal", sans-serif;
-        font-weight:400;
-        font-style: normal;
-    }
-    #flower{
-        width:250px;
-        height:250px;
-    }
-    .flowersShop{
-    position:relative;
-    justify-items: center;
-    align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-    transition:0.3s;
-    text-align:center;
-    padding:5px;
-    border-radius:5px ;
-    background-color: white;
-    grid-area: 1 / 3 / 2 / 4;
-    width:350px;
-    height:350px;
-    top:37px;  
-    left:3rem;        
-    }
-    #pin{
-        padding-right:7px;
-    }
-    
-    #note{
-        position: absolute;
-        right:-2rem;
-       top:9rem;
-        width:220px;
-        height:220px;
-    }
-    #text{
-        position:absolute;
-       left:14rem;
-        bottom:4rem;
-         font-family: "Gochi Hand", cursive;
-        font-weight:400;
-        font-size:1.1rem;
-        font-style: normal;    
-    }
-    #yo{
-     width:250px;
-     height:250px;
-    }
-    .Yu-Gi{
-        position:relative;
-        justify-items: center;
-        align-items: center;
-        box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-        transition: 0.3s;
-         text-align:center;
-        padding:7px;   
-        background-color: white;
-        border-radius:5px;
-        width:350px;
-        height:350px;
-        left:1rem;  
-        bottom:-40px;
-        grid-area: 2 / 2 / 3 / 3; 
-       }
-    
-    #pin{
-        padding-right:7px;
-    }
-    
-    #note2{
-        position:absolute;
-        bottom:-2rem;
-        left:10rem;
-        width:220px;
-        height:220px;
-    }
-    #text2{
-        position: absolute;
-         left:11rem;
-        bottom:2rem;
-        font-family: "Gochi Hand", cursive;
-            font-weight:400;
-            font-size:1rem;
-            font-style: normal;   
-    }
-    #rab{
-        width:250px;
-        height: 250px;
+      #rab{
+        width:90px;
+        height: 90px;
     }
     .rabbit{
         position:relative;
@@ -546,10 +340,10 @@ li:hover{
         padding:5px;
         border-radius:5px ;
         background-color:white;
-        width:350px;
-        height:350px;
-         left:26rem;
-       bottom:-3rem;
+        width:170px;
+        height:170px;
+         left:-1rem;
+       bottom:-8.2rem;
        grid-area: 3 / 3 / 4 / 4;
     }
     
@@ -582,15 +376,15 @@ li:hover{
      padding:5px;
      border-radius:5px ;
      background-color:white;
-      width:350px;
-      height:350px;
-        top:-45rem;  
-        left:53rem;
+      width:170px;
+      height:170px;
+        top:-3rem;  
+        left:17rem;
         grid-area: 2 / 4 / 3 / 5;
     }
     #shop{
-     width:250px;
-     height:250px;
+     width:90px;
+     height:90px;
     }
      #note4{
          position:absolute;
@@ -610,35 +404,310 @@ li:hover{
     }
     
      #line1{
-        position:absolute;
-        height:43rem;
-        left:31rem;
-       top:-27rem;
-       transform: rotate(81deg);
+    position:absolute;
+    height:12rem;
+        left:17rem;
+       top:-14rem; 
+       transform: rotate(84deg);
         opacity:0.5;
        
     }
     #line2{
-        position: absolute;
-        height:46rem;
-        left:24rem;
-        bottom:-13rem;
-        transform:rotate(-900deg);
+    position: absolute;
+    height:12rem;
+    left:14rem;
+    bottom:-6rem;
+        transform:rotate(-897deg);
         opacity:0.5;
     }
     #line3{
         position: absolute;
-        height:45rem;
-        left:3rem;
-        bottom:-18rem;
+        height:12rem;
+        left:2rem;
+        bottom:-10rem;
         transform:rotate(83deg);
         opacity:0.5;
     }
     #line4{
         position: absolute;
-        height:43rem;
+        height:12rem;
         left:-1rem;
-        top:-31rem;
+        top:-16rem;
+        transform:rotate(-179deg);
+        opacity:0.5;
+    } 
+    
+  
+  
+  @media (min-width:768px) and (max-width:1024px){
+    #bg-img1{
+     display:none;
+ 
+ }
+     #bg-img{
+         display:block;
+
+         height:77rem;
+     }
+ 
+     .sec{
+         display: flex;
+        flex-wrap:nowrap; 
+          justify-content: center;
+          align-items: center;
+     }
+     #detective{
+   
+         width:250px;
+         height:250px;
+     }
+     
+     .infos h1{
+      font-size:2rem;
+     }
+
+     P{
+        font-size:1.3rem;
+     }
+     .aboutme{
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         gap:10px;
+     }
+    
+ #detect{
+     width:250px;
+     height:250px;
+ }
+ .skills{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .skillscontent{
+  box-shadow: 0 4px 8px 0 #88818133;
+  height:30px;
+  width:30px;
+  padding:1rem 14rem 16rem 5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: "Arsenal", sans-serif;
+   font-style:normal;
+  line-height: 1.7;
+  color: #85622f;
+
+ }
+    .hat{
+        width:200px;
+        height:200px;
+    }
+    
+    .cards{
+        background-color: rgb(216, 194, 161);
+         border:5px solid #793f10be;
+         width:90%;
+         height:40rem;
+         margin-left: 2.5rem;
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+         grid-template-rows: repeat(5, 1fr);
+         grid-column-gap: 0px;
+         grid-row-gap: 0px;
+        font-family: "Arsenal", sans-serif;
+        font-weight:200;
+        font-size:0.8rem;
+        font-style: normal;
+    }
+    #flower{
+        width:100px;
+        height:100px;
+    }
+    .flowersShop{
+    position:relative;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+    transition:0.3s;
+    text-align:center;
+    padding:5px;
+    border-radius:5px ;
+    background-color: white;
+    grid-area: 1 / 3 / 2 / 4;
+    width:180px;
+    height:180px;
+    top:37px;  
+    left:-1rem;        
+    }
+    #pin{
+        padding-right:7px;
+    }
+    
+    #note{
+        position: absolute;
+        right:-2rem;
+       top:9rem;
+        width:220px;
+        height:220px;
+    }
+    #text{
+    position:absolute;
+    left:14rem;
+    bottom:4rem;
+    font-family: "Gochi Hand", cursive;
+    font-weight:400;
+    font-size:1.1rem;
+    font-style: normal;    
+    }
+    #yo{
+     width:100px;
+     height:100px;
+    }
+    .Yu-Gi{
+        position:relative;
+        justify-items: center;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+        transition: 0.3s;
+         text-align:center;
+        padding:7px;   
+        background-color: white;
+        border-radius:5px;
+        width:180px;
+        height:180px;
+        left:-3rem;  
+        bottom:-40px;
+        grid-area: 2 / 2 / 3 / 3; 
+       }
+    
+    #pin{
+        padding-right:7px;
+    }
+    
+    #note2{
+        position:absolute;
+        bottom:-2rem;
+        left:10rem;
+        width:220px;
+        height:220px;
+    }
+    #text2{
+        position: absolute;
+         left:11rem;
+        bottom:2rem;
+        font-family: "Gochi Hand", cursive;
+            font-weight:400;
+            font-size:1rem;
+            font-style: normal;   
+    }
+    #rab{
+        width:100px;
+        height: 100px;
+    }
+    .rabbit{
+        position:relative;
+        justify-items: center;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+        transition: 0.3s;
+        text-align:center;
+        padding:5px;
+        border-radius:5px ;
+        background-color:white;
+        width:180px;
+        height:180px;
+         left:13rem;
+       bottom:-1rem;
+       grid-area: 3 / 3 / 4 / 4;
+    }
+    
+    #pin{
+        padding-right:7px;
+    }
+    
+    #note3{
+        width: 220px;;
+        height:220px;
+        top:10rem;
+        left:12rem;
+    }
+    #text3{
+    position:absolute;
+    bottom:3rem;
+    left:15rem;
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+     font-size: 1.1rem;
+    font-style: normal;
+    }
+    .shop{
+     position:relative;
+     justify-items: center;
+     align-items: center;
+     box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+     transition: 0.3s;
+     text-align:center;
+     padding:5px;
+     border-radius:5px ;
+     background-color:white;
+      width:180px;
+      height:180px;
+        top:-23rem;  
+        left:27rem;
+        grid-area: 2 / 4 / 3 / 5;
+    }
+    #shop{
+     width:100px;
+     height:100px;
+    }
+     #note4{
+         position:absolute;
+         top:11rem;
+         left:10rem;
+         width:220px;
+         height:220px;
+    }
+    #text4{
+    position:absolute;
+    bottom:1rem;
+    left: 12rem;
+    font-family: "Gochi Hand", cursive;
+    font-weight:400;
+    font-size:1.2rem;
+    font-style: normal;
+    }
+    
+     #line1{
+    position:absolute;
+    height:22rem;
+        left:17rem;
+       top:-14rem; 
+       transform: rotate(84deg);
+        opacity:0.5;
+       
+    }
+    #line2{
+    position: absolute;
+    height:22rem;
+    left:14rem;
+    bottom:-6rem;
+        transform:rotate(-897deg);
+        opacity:0.5;
+    }
+    #line3{
+        position: absolute;
+        height:23rem;
+        left:2rem;
+        bottom:-10rem;
+        transform:rotate(83deg);
+        opacity:0.5;
+    }
+    #line4{
+        position: absolute;
+        height:23rem;
+        left:-1rem;
+        top:-16rem;
         transform:rotate(-179deg);
         opacity:0.5;
     } 
@@ -646,26 +715,23 @@ li:hover{
     .foot{
         background-color: rgb(216, 194, 161);
         color:#793f10be;
-        width:122rem;
-        padding:3rem;
+        width:98%;
+        padding:0.5rem;
            }
            .github{
-            position:relative;
-            width:100px;
-            height:100px;
-            left:77rem;
-            top:4rem;
+            position: absolute;
+            width:30px;
+            height:30px;
+            margin-left:40rem;
         }
         .linkedin{
-            position:relative;
-            width:100px;
-            height:100px;
-            left:60rem;
-            top:4rem;
-         
+          margin-left:40rem;
+            width:30px;
+            height:30px;
         }
-    
-      
+        #footer{
+            align-items: center;
+        }
  }
  
  @media (min-width:1025px){
