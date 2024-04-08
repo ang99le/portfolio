@@ -90,31 +90,6 @@ body{
     animation-delay: 8s, 11s;
   } */
   
-  /* .upper img:nth-child(9) {
-    animation-delay: 9s, 11.5s;
-  }
-  .lower img:nth-child(9) {
-    animation-delay: 9.5s, 12s;
-  }
-  .upper img:nth-child(10) {
-    animation-delay: 10s, 12.5s;
-  }
-  .lower img:nth-child(10) {
-    animation-delay: 10.5s, 13s;
-  }
-  .upper img:nth-child(11) {
-    animation-delay: 11s, 13.5s;
-  }
-  .lower img:nth-child(11) {
-    animation-delay: 11.5s, 14s;
-  }
-  .upper img:nth-child(12) {
-    animation-delay: 12s, 14.5s;
-  }
-  .lower img:nth-child(12) {
-    animation-delay: 12.5s, 15s;
-  } */
-
 .navigation {
 display: flex;
 font-weight:bold;
@@ -616,7 +591,7 @@ li:hover{
       background-color:white;
        width:170px;
        height:170px;
-         top:-7rem;  
+         top:-8rem;  
          left:15rem;
          grid-area: 2 / 4 / 3 / 5;
      }
@@ -641,43 +616,44 @@ li:hover{
      font-style: normal;
      }
      
-      #line1{
-     position:absolute;
-     height:18rem;
-         left:6.5rem;
-        top:-7rem; 
-        transform: rotate(42deg);
-         opacity:0.5;
-         display: block;
-        
-     }
-     #line2{
-     position: absolute;
-     height:18rem;
-     left:14rem;
-     bottom:-5rem;
-         transform:rotate(-49deg);
-         opacity:0.5;
-         display: block;
-     }
-     #line3{
-         position: absolute;
-         height:20rem;
-         left:5rem;
-         bottom:-16rem;
-         transform:rotate(42deg);
-         opacity:0.5;
-         display: block;
-     }
-     #line4{
-         position: absolute;
-         height:19rem;
-         left:-2rem;
-         top:-2rem;
-         transform:rotate(-48deg);
-         opacity:0.5;
-         display: block;
-     } 
+     #line1{
+      position:absolute;
+      height:18rem;
+          left:6.5rem;
+         top:-7rem; 
+         transform: rotate(42deg);
+          opacity:0.5;
+          display: block;
+         
+      }
+      #line2{
+      position: absolute;
+      height:21rem;
+      left:12rem;
+      bottom:-7rem;
+          transform:rotate(-48deg);
+          opacity:0.5;
+          display: block;
+      }
+      #line3{
+          position: absolute;
+          height:20rem;
+          left:5rem;
+          bottom:-17.5rem;
+          transform:rotate(42deg);
+          opacity:0.5;
+          display: block;
+      }
+      #line4{
+          position: absolute;
+          height:20rem;
+          left:-3rem;
+          top:-2rem;
+          transform:rotate(-48deg);
+          opacity:0.5;
+          display: block;
+      } 
+      
      
   }
 
@@ -1029,7 +1005,9 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
+    margin-bottom:15rem;
+    margin-top: 3rem;
+  }
 #detective{
     width:300px;
     height:300px;
@@ -1056,6 +1034,7 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom:15rem;
   
  }
 
@@ -1072,7 +1051,8 @@ li{
     font-size:2rem;
     flex-wrap:nowrap;
     padding-left:8rem;
-   } 
+    
+  } 
 
  .skills{
     display: flex;
@@ -1252,7 +1232,7 @@ font-style: normal;
  background-color:white;
   width:280px;
   height:280px;
-    top:-37rem;  
+    top:-39.5rem;  
     left:40rem;
     grid-area: 2 / 4 / 3 / 5;
 }
@@ -1277,39 +1257,39 @@ font-size:1.2rem;
 font-style: normal;
 }
 
- #line1{
-    position:absolute;
-    height:36rem;
-    left:23rem;
-   top:-23rem;
-   transform: rotate(89deg);
-    opacity:0.5;
-    display: block;   
+#line1{
+  position:absolute;
+  height:37rem;
+  left:22rem;
+ top:-24rem;
+ transform: rotate(89deg);
+  opacity:0.5;
+  display: block;   
 }
 #line2{
-    position: absolute;
-    height:36rem;
-    left:26rem;
-    bottom:-9rem;
-    transform:rotate(-5deg);
-    opacity:0.5;
-    display: block;   
+  position: absolute;
+  height:38rem;
+  left:26rem;
+  bottom:-11rem;
+  transform:rotate(-6deg);
+  opacity:0.5;
+  display: block;   
 }
 #line3{
-    position: absolute;
-    height:36rem;
-    left:3rem;
-    bottom:-14rem;
-    transform:rotate(87deg);
-    opacity:0.5;
-    display: block;   }
+  position: absolute;
+  height:37.5rem;
+  left:2rem;
+  bottom:-16rem;
+  transform:rotate(89deg);
+  opacity:0.5;
+  display: block;   }
 #line4{
-    position: absolute;
-    height:37rem;
-    left:-1rem;
-    top:-28rem;
-    transform:rotate(-184deg);
-    opacity:0.5;
-    display: block;   
+  position: absolute;
+  height:37rem;
+  left:-1rem;
+  top:-28rem;
+  transform:rotate(-184deg);
+  opacity:0.5;
+  display: block;   
 } 
 }
