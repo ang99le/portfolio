@@ -116,7 +116,6 @@ body{
   } */
 
 .navigation {
-border: 1px solid rgb(25, 0, 255);
 display: flex;
 font-weight:bold;
 margin-top:30px;
@@ -259,172 +258,173 @@ li:hover{
        margin-right: auto;
    }
    .aboutme{
-    border:solid 3px orangered;
     text-align: center;
           
    }
 
    .cards{
-   margin-top: 1rem;
-    padding-top: 2rem;
-       background-color: rgb(216, 194, 161);
-        border:5px solid #793f10be;
-        width:92%;
-        margin-left: 1rem;
-        height:48rem;
-       font-family: "Arsenal", sans-serif;
-       font-weight:200;
-       font-style: normal;
-       font-size:13px;
-   }
-   #flower{
-       width:80px;
-       height:80px;
-   }
-   .flowersShop{
-   box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-   transition:0.3s;
-   text-align:center;
-   padding:9px;
-   border-radius:5px ;
-   background-color: white;
-   width:170px;
-   height:170px; 
-   display: block;
-   margin-left: auto;
-   margin-right: auto;      
-   }
-   #pin{
-       padding-right:7px;
-   }
-   
-   #note{
-       position: absolute;
-       right:-2rem;
-      top:9rem;
-       width:200px;
-       height:200px;
-   }
-   #text{
-       position:absolute;
-      left:13rem;
-       bottom:2rem;
-        font-family: "Gochi Hand", cursive;
-       font-weight:400;
-       font-size:small;
-       font-style: normal;    
-   }
-   #yo{
-    width:90px;
-    height:90px;
-   }
-   .Yu-Gi{
-       box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-       transition: 0.3s;
-        text-align:center;
-       padding:7px;   
-       background-color: white;
-       border-radius:5px;
-       width:170px;
-       height:170px; 
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
-       
+    margin-top: 1rem;
+     padding-top: 2rem;
+        background-color: rgb(216, 194, 161);
+         border:5px solid #793f10be;
+         width:92%;
+         margin-left: 1rem;
+         height:48rem;
+        font-family: "Arsenal", sans-serif;
+        font-weight:200;
+        font-style: normal;
+        font-size:13px;
+        padding-bottom: 2rem;
+    }
+    #flower{
+        width:80px;
+        height:80px;
       
-      }
-   
-  
-      #rab{
-        width:90px;
-        height: 90px;
     }
-    .rabbit{
-        box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-        transition: 0.3s;
-        text-align:center;
-        padding:5px;
-        border-radius:5px ;
-        background-color:white;
-        width:170px;
-        height:170px;
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+    .flowersShop{
+    box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+    transition:0.3s;
+    text-align:center;
+    padding:9px;
+    border-radius:5px ;
+    background-color: white;
+    width:170px;
+    height:170px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom:1rem;    
     }
-    
     #pin{
         padding-right:7px;
     }
     
-    #note3{
-        width: 220px;;
-        height:220px;
-        top:10rem;
-        left:12rem;
+    #note{
+        position: absolute;
+        right:-2rem;
+       top:9rem;
+        width:200px;
+        height:200px;
     }
-    #text3{
-    position:absolute;
-    bottom:3rem;
-    left:15rem;
-    font-family: "Gochi Hand", cursive;
-    font-weight: 400;
-     font-size: 1.1rem;
-    font-style: normal;
+    #text{
+        position:absolute;
+       left:13rem;
+        bottom:2rem;
+         font-family: "Gochi Hand", cursive;
+        font-weight:400;
+        font-size:small;
+        font-style: normal;    
     }
-    .shop{
-     box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-     transition: 0.3s;
-     text-align:center;
-     padding:5px;
-     border-radius:5px ;
-     background-color:white;
-      width:170px;
-      height:170px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      
-    }
-    #shop{
+    #yo{
      width:90px;
      height:90px;
     }
-     #note4{
-         position:absolute;
-         top:11rem;
-         left:10rem;
-         width:220px;
+    .Yu-Gi{
+        box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+        transition: 0.3s;
+         text-align:center;
+        padding:7px;   
+        background-color: white;
+        border-radius:5px;
+        width:170px;
+        height:170px; 
+         display: block;
+          margin-left: auto;
+         margin-right: auto;
+       }
+    
+   
+       #rab{
+         width:90px;
+         height: 90px;
+     }
+     .rabbit{
+         box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+         transition: 0.3s;
+         text-align:center;
+         padding:5px;
+         border-radius:5px ;
+         background-color:white;
+         width:170px;
+         height:170px;
+         display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2rem;
+   margin-bottom:1rem;
+ 
+     }
+     
+     #pin{
+         padding-right:7px;
+     }
+     
+     #note3{
+         width: 220px;;
          height:220px;
-         
-    }
-    #text4{
-    position:absolute;
-    bottom:1rem;
-    left: 12rem;
-    font-family: "Gochi Hand", cursive;
-    font-weight:400;
-    font-size:1.2rem;
-    font-style: normal;
-
-    }
-    
-     #line1{
-        display: none;
-    }
-    #line2{
-        display: none;
-    }
-
-    #line3{
-        display: none;
-    }
-    #line4{
-        display: none;
-    } 
-    
-  
+         top:10rem;
+         left:12rem;
+     }
+     #text3{
+     position:absolute;
+     bottom:3rem;
+     left:15rem;
+     font-family: "Gochi Hand", cursive;
+     font-weight: 400;
+      font-size: 1.1rem;
+     font-style: normal;
+     }
+     .shop{
+      box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+      transition: 0.3s;
+      text-align:center;
+      padding:5px;
+      border-radius:5px ;
+      background-color:white;
+       width:170px;
+       height:170px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 1rem;
+       
+     }
+     #shop{
+      width:90px;
+      height:90px;
+     }
+      #note4{
+          position:absolute;
+          top:11rem;
+          left:10rem;
+          width:220px;
+          height:220px;
+          
+     }
+     #text4{
+     position:absolute;
+     bottom:1rem;
+     left: 12rem;
+     font-family: "Gochi Hand", cursive;
+     font-weight:400;
+     font-size:1.2rem;
+     font-style: normal;
+ 
+     }
+     
+      #line1{
+         display: none;
+     }
+     #line2{
+         display: none;
+     }
+ 
+     #line3{
+         display: none;
+     }
+     #line4{
+         display: none;
+     } 
   @media(min-width:500px) and (max-width:767px){
     #detective{
         justify-content: center;
@@ -482,7 +482,6 @@ li:hover{
   margin-right: auto;
     }
     .aboutme{
-     border:solid 3px orangered;
      text-align: center;
            
     }
@@ -708,15 +707,19 @@ li{
      .sec{
          display: flex;
         flex-wrap:nowrap; 
-          justify-content: center;
+        margin-left: auto;
+         margin-left:9rem;
           align-items: center;
      }
      #detective{
-   
          width:250px;
          height:250px;
      }
-     
+
+     .infos{
+       margin-left: auto;
+         margin-left: auto;
+     }
      .infos h1{
       font-size:2rem;
      }
@@ -726,14 +729,18 @@ li{
      }
      .aboutme{
          display:flex;
-         justify-content: center;
-         align-items: center;
-         gap:10px;
      }
-    
+
+    .About{
+      margin-left: auto;
+      margin-left: auto;
+    }
+
  #detect{
      width:250px;
      height:250px;
+     padding-left:10rem;
+
  }
  .skills{
      display:flex;
@@ -752,11 +759,13 @@ li{
    font-style:normal;
   line-height: 1.7;
   color: #85622f;
-
  }
     .hat{
         width:200px;
         height:200px;
+        margin-left: auto;
+        margin-left: auto;
+        padding-right:7rem;
     }
     
     .cards{
@@ -908,7 +917,7 @@ li{
      background-color:white;
       width:180px;
       height:180px;
-        top:-23rem;  
+        top:-26rem;  
         left:27rem;
         grid-area: 2 / 4 / 3 / 5;
     }
@@ -935,20 +944,20 @@ li{
     
      #line1{
     position:absolute;
-    height:22rem;
-        left:17rem;
+    height:24rem;
+        left:15rem;
        top:-14rem; 
-       transform: rotate(84deg);
+       transform: rotate(87deg);
         opacity:0.5;
         display: block;
        
     }
     #line2{
     position: absolute;
-    height:22rem;
-    left:14rem;
-    bottom:-6rem;
-        transform:rotate(-897deg);
+    height:26rem;
+    left:16rem;
+    bottom:-9rem;
+        transform:rotate(-3deg);
         opacity:0.5;
         display: block;
     }
@@ -957,16 +966,16 @@ li{
         height:23rem;
         left:2rem;
         bottom:-10rem;
-        transform:rotate(83deg);
+        transform:rotate(88deg);
         opacity:0.5;
         display: block;
     }
     #line4{
         position: absolute;
         height:23rem;
-        left:-1rem;
-        top:-16rem;
-        transform:rotate(-179deg);
+        left:-0.5rem;
+        top:-17rem;
+        transform:rotate(-181deg);
         opacity:0.5;
         display: block;
     } 
@@ -994,295 +1003,313 @@ li{
  }
  
  @media (min-width:1025px){
-    li{
-        color: rgb(110, 64, 11);
-        list-style: none;
-        font-family: "Arsenal", sans-serif;
-          font-weight: 500;
-          font-style: normal;
-          font-size:30px;
-          justify-content:space-between;
-          padding-left:5rem;
-        }
+  li{
+    color: rgb(110, 64, 11);
+    list-style: none;
+    font-family: "Arsenal", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size:30px;
+      justify-content:space-between;
+      padding-left:5rem;
+    }
 
-    #bg-img1{
-        display:none;
-    
-    }
-        #bg-img{
-            display:block;
-            width:50rem;
-            height:70rem;
-            position: cover;
-        }
-    .sec{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    #detective{
-      justify-content: center;
-        align-items: center;
-        width:400px;
-        height:400px;
-    }
-    
-     .infos{
-        
-        color:rgb(48, 33, 1);
-         font-size:2rem;  
-         text-align:center;
-         justify-content: center;
-         align-items: center;
-         margin-left:5rem;
-     } 
+#bg-img1{
+    display:none;
 
-     .aboutme{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-     }
- 
-     #detect{
-        width:350px;
-        height:350px;
-
+}
+    #bg-img{
+        display:block;
+        width:50rem;
+        height:70rem;
+        position: cover;
     }
-     .infos h1{
-        font-size:4rem;
-       }
-       
-       .About{
-        text-align:center;  
-        font-size:2rem;
-        flex-wrap:nowrap;
-       } 
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#detective{
+    width:300px;
+    height:300px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left:9rem;
+}
+
+ .infos{
+    color:rgb(48, 33, 1);
+     font-size:2rem;  
+     text-align:center;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .infos h1{
+  font-size:3rem;
+ }
+
+ .aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+ }
+
+ #detect{
+    width:300px;
+    height:300px;
+    margin-left: 0%;
+    margin-right: 0%;
    
-     .skills{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;   
-     }
-     .hat{
-        height: 300px;
-        width:300px;
-        display: block;
-     margin-left:5rem;
+}
+   
+   .About{
+    text-align:center;  
+    font-size:2rem;
+    flex-wrap:nowrap;
+    padding-left:8rem;
+   } 
 
-     }
-     .cards{
-        justify-content: center;
-        align-items:center;
-        background-color: rgb(216, 194, 161);
-         border:10px solid #793f10be;
-         width:95%;
-         margin-left:2rem;
-         height:65rem;
-         display:grid;
-         grid-template-columns: repeat(5, 1fr);
-         grid-template-rows: repeat(5, 1fr);
-         grid-column-gap: 0px;
-         grid-row-gap: 0px;
-        font-family: "Arsenal", sans-serif;
-        font-weight:400;
-        font-style: normal;
-        
-    }
-    #flower{
-        width:200px;
-        height:200px;
-    }
-    .flowersShop{
+ .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+   
+ }
+ .hat{
+    height: 300px;
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8rem;       
+
+ }
+ .skillscontent{
+  width: 300px;
+  height: 300px;
+  margin-left: 0%;
+  margin-right: 0%;
+ }
+
+ .skillscontent h4{
+  font-size: 1.5rem;
+ }
+ .cards{
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(216, 194, 161);
+     border:7px solid #793f10be;
+     width:95%;
+     margin-left:2rem;
+     height:65rem;
+     display:grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-template-rows: repeat(5, 1fr);
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
+    font-family: "Arsenal", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    
+}
+#flower{
+    width:200px;
+    height:200px;
+}
+.flowersShop{
+position:relative;
+justify-items: center;
+align-items: center;
+box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+transition:0.3s;
+text-align:center;
+padding:5px;
+border-radius:5px ;
+background-color: white;
+grid-area: 1 / 3 / 2 / 4;
+width:300px;
+height:300px;
+top:1rem;  
+left:-4rem;        
+}
+#pin{
+    padding-right:7px;
+}
+
+#note{
+    position: absolute;
+    right:-2rem;
+   top:9rem;
+    width:220px;
+    height:220px;
+    
+}
+#text{
+    position:absolute;
+   left:14rem;
+    bottom:4rem;
+     font-family: "Gochi Hand", cursive;
+    font-weight:400;
+    font-size:1.1rem;
+    font-style: normal;    
+}
+#yo{
+ width:200px;
+ height:200px;
+}
+.Yu-Gi{
     position:relative;
     justify-items: center;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-    transition:0.3s;
+    transition: 0.3s;
+     text-align:center;
+    padding:7px;   
+    background-color: white;
+    border-radius:5px;
+    width:300px;
+    height:300px;
+    left:-5rem;  
+    bottom:-40px;
+    grid-area: 2 / 2 / 3 / 3; 
+   }
+
+#pin{
+    padding-right:7px;
+}
+
+#note2{
+    position:absolute;
+    bottom:-2rem;
+    left:10rem;
+    width:220px;
+    height:220px;
+}
+#text2{
+    position: absolute;
+     left:11rem;
+    bottom:2rem;
+    font-family: "Gochi Hand", cursive;
+        font-weight:400;
+        font-size:1rem;
+        font-style: normal;   
+}
+#rab{
+    width:200px;
+    height: 200px;
+}
+.rabbit{
+    position:relative;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+    transition: 0.3s;
     text-align:center;
     padding:5px;
     border-radius:5px ;
-    background-color: white;
-    grid-area: 1 / 3 / 2 / 4;
+    background-color:white;
     width:300px;
     height:300px;
-    top:1rem;  
-    left:-4rem;        
-    }
-    #pin{
-        padding-right:7px;
-    }
-    
-    #note{
-        position: absolute;
-        right:-2rem;
-       top:9rem;
-        width:220px;
-        height:220px;
-        
-    }
-    #text{
-        position:absolute;
-       left:14rem;
-        bottom:4rem;
-         font-family: "Gochi Hand", cursive;
-        font-weight:400;
-        font-size:1.1rem;
-        font-style: normal;    
-    }
-    #yo{
-     width:200px;
-     height:200px;
-    }
-    .Yu-Gi{
-        position:relative;
-        justify-items: center;
-        align-items: center;
-        box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-        transition: 0.3s;
-         text-align:center;
-        padding:7px;   
-        background-color: white;
-        border-radius:5px;
-        width:300px;
-        height:300px;
-        left:-8rem;  
-        bottom:-40px;
-        grid-area: 2 / 2 / 3 / 3; 
-       }
-    
-    #pin{
-        padding-right:7px;
-    }
-    
-    #note2{
-        position:absolute;
-        bottom:-2rem;
-        left:10rem;
-        width:220px;
-        height:220px;
-    }
-    #text2{
-        position: absolute;
-         left:11rem;
-        bottom:2rem;
-        font-family: "Gochi Hand", cursive;
-            font-weight:400;
-            font-size:1rem;
-            font-style: normal;   
-    }
-    #rab{
-        width:200px;
-        height: 200px;
-    }
-    .rabbit{
-        position:relative;
-        justify-items: center;
-        align-items: center;
-        box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-        transition: 0.3s;
-        text-align:center;
-        padding:5px;
-        border-radius:5px ;
-        background-color:white;
-        width:300px;
-        height:300px;
-         left:25rem;
-       bottom:-3rem;
-       grid-area: 3 / 3 / 4 / 4;
-    }
-    
-    #pin{
-        padding-right:7px;
-    }
-    
-    #note3{
-        width: 220px;;
-        height:220px;
-        top:10rem;
-        left:12rem;
-    }
-    #text3{
+     left:20rem;
+   bottom:-3rem;
+   grid-area: 3 / 3 / 4 / 4;
+}
+
+#pin{
+    padding-right:7px;
+}
+
+#note3{
+    width: 220px;;
+    height:220px;
+    top:10rem;
+    left:12rem;
+}
+#text3{
+position:absolute;
+bottom:3rem;
+left:15rem;
+font-family: "Gochi Hand", cursive;
+font-weight: 400;
+ font-size: 1.1rem;
+font-style: normal;
+}
+.shop{
+ position:relative;
+ justify-items: center;
+ align-items: center;
+ box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+ transition: 0.3s;
+ text-align:center;
+ padding:5px;
+ border-radius:5px ;
+ background-color:white;
+  width:280px;
+  height:280px;
+    top:-37rem;  
+    left:40rem;
+    grid-area: 2 / 4 / 3 / 5;
+}
+#shop{
+ width:200px;
+ height:200px;
+}
+ #note4{
+     position:absolute;
+     top:11rem;
+     left:10rem;
+     width:220px;
+     height:220px;
+}
+#text4{
+position:absolute;
+bottom:1rem;
+left: 12rem;
+font-family: "Gochi Hand", cursive;
+font-weight:400;
+font-size:1.2rem;
+font-style: normal;
+}
+
+ #line1{
     position:absolute;
-    bottom:3rem;
-    left:15rem;
-    font-family: "Gochi Hand", cursive;
-    font-weight: 400;
-     font-size: 1.1rem;
-    font-style: normal;
-    }
-    .shop{
-     position:relative;
-     justify-items: center;
-     align-items: center;
-     box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
-     transition: 0.3s;
-     text-align:center;
-     padding:5px;
-     border-radius:5px ;
-     background-color:white;
-      width:300px;
-      height:300px;
-        top:-37rem;  
-        left:50rem;
-        grid-area: 2 / 4 / 3 / 5;
-    }
-    #shop{
-     width:200px;
-     height:200px;
-    }
-     #note4{
-         position:absolute;
-         top:11rem;
-         left:10rem;
-         width:220px;
-         height:220px;
-    }
-    #text4{
-    position:absolute;
-    bottom:1rem;
-    left: 12rem;
-    font-family: "Gochi Hand", cursive;
-    font-weight:400;
-    font-size:1.2rem;
-    font-style: normal;
-    }
-    
-     #line1{
-        position:absolute;
-        height:42rem;
-        left:27rem;
-       top:-26rem;
-       transform: rotate(81deg);
-        opacity:0.5;
-        display: block;   
-    }
-    #line2{
-        position: absolute;
-        height:40rem;
-        left:32rem;
-        bottom:-12rem;
-        transform:rotate(-717deg);
-        opacity:0.5;
-        display: block;   
-    }
-    #line3{
-        position: absolute;
-        height:41rem;
-        left:3rem;
-        bottom:-16rem;
-        transform:rotate(81deg);
-        opacity:0.5;
-        display: block;   }
-    #line4{
-        position: absolute;
-        height:40rem;
-        left:-2rem;
-        top:-29rem;
-        transform:rotate(-179deg);
-        opacity:0.5;
-        display: block;   
-    } 
-    }
+    height:36rem;
+    left:23rem;
+   top:-23rem;
+   transform: rotate(89deg);
+    opacity:0.5;
+    display: block;   
+}
+#line2{
+    position: absolute;
+    height:36rem;
+    left:26rem;
+    bottom:-9rem;
+    transform:rotate(-5deg);
+    opacity:0.5;
+    display: block;   
+}
+#line3{
+    position: absolute;
+    height:36rem;
+    left:3rem;
+    bottom:-14rem;
+    transform:rotate(87deg);
+    opacity:0.5;
+    display: block;   }
+#line4{
+    position: absolute;
+    height:37rem;
+    left:-1rem;
+    top:-28rem;
+    transform:rotate(-184deg);
+    opacity:0.5;
+    display: block;   
+} 
+}
