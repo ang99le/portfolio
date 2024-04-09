@@ -7,6 +7,31 @@ body{
     padding: 0;
     width:100%;
 }
+  .loader {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg,rgb(216, 194, 161), #fff,rgb(110, 64, 11));
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
 /* .wrap {
     position: relative;
     left:100px;
@@ -122,8 +147,7 @@ a{
 }
 
 li:hover{
-    background-color: rgb(216, 194, 161);
-    padding:0.4rem;
+    color: rgb(216, 194, 161);
     border-radius: 5px;
 }
 
@@ -1059,7 +1083,7 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;   
-   
+   margin-bottom: 10rem;   
  }
  .hat{
     height: 300px;
