@@ -32,11 +32,19 @@ body{
       background-position-x: 500%;
     }
   }
-/* .wrap {
+
+.foo{
+  align-content: center;
+  justify-content: center;
+  margin-left:40%;
+}
+
+    /* .wrap {
     position: relative;
     left:100px;
-    bottom:30rem;    
-  } */ 
+    bottom:30rem;
+    display: block;    
+  }  */
   /* .upper, .lower {
     display:flex;
     width:2000px;
@@ -118,12 +126,8 @@ body{
 .navigation {
 display: flex;
 font-weight:bold;
-margin-top:30px;
-
-}
-.navigation button:hover{
-    background-color: bisque;
-    border-radius: 5px;
+margin-top:20px;
+font-style:none;
 }
 
  button{
@@ -140,16 +144,19 @@ font-family: "Arsenal", sans-serif;
   font-style: normal;
   font-size:20px;
   justify-content:space-between;
-  padding-left:1rem;
+  padding-left:0.5rem;
 }
 a{
     padding:0.5rem;
+    list-style:none;
+    color: #53340a;
+    text-decoration:none;
 }
 
-li:hover{
-    color: rgb(216, 194, 161);
-    border-radius: 5px;
-}
+a:hover{
+    border-top: solid 2px rgb(216, 194, 161);
+    border-bottom: solid 2px rgb(216, 194, 161); 
+    }
 
    .foot{
     background-color: rgb(216, 194, 161);
@@ -300,18 +307,18 @@ li:hover{
     
     #note{
         position: absolute;
-        right:-2rem;
-       top:9rem;
-        width:200px;
-        height:200px;
+        right:6.5rem;
+        top:97rem;
+        width:111px;
+        height:111px;
     }
     #text{
         position:absolute;
-       left:13rem;
-        bottom:2rem;
+       left:15rem;
+        bottom:-60rem;
          font-family: "Gochi Hand", cursive;
         font-weight:400;
-        font-size:small;
+        font-size:10px;
         font-style: normal;    
     }
     #yo{
@@ -424,7 +431,24 @@ li:hover{
      #line4{
          display: none;
      } 
+     .foo{
+      align-content: center;
+      justify-content: center;
+      margin-left:40%;
+    }
+    .linkedin{
+      margin-left:0.1rem;
+    }
+   .github{
+    margin-left:4rem;
+   }
+   /* #contact{
+    font-size:3px;
+   } */
   @media(min-width:500px) and (max-width:767px){
+    .wrap{
+      display: block;
+    }
     #detective{
         justify-content: center;
         align-items:center;
@@ -434,6 +458,7 @@ li:hover{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        
     }
     .infos h1{
      font-size:2rem;
@@ -489,7 +514,7 @@ li:hover{
         background-color: rgb(216, 194, 161);
          border:5px solid #793f10be;
          width: 100%;
-         margin-left: 1rem;
+         margin-left:4rem;
          height:30rem;
          display:grid;
          grid-template-columns: repeat(5, 1fr);
@@ -527,18 +552,18 @@ li:hover{
     
     #note{
         position: absolute;
-        right:-2rem;
-       top:9rem;
-        width:200px;
-        height:200px;
+        right:-1rem;
+       top:5rem;
+        width:115px;
+        height:115px;
     }
     #text{
         position:absolute;
-       left:13rem;
-        bottom:2rem;
+       left:6rem;
+        bottom:0.5rem;
          font-family: "Gochi Hand", cursive;
         font-weight:400;
-        font-size:small;
+        font-size:10px;
         font-style: normal;    
     }
     #yo{
@@ -677,12 +702,26 @@ li:hover{
           opacity:0.5;
           display: block;
       } 
-      
-     
+      .foo{
+        align-content: center;
+        justify-content: center;
+        margin-left:40%;
+      }
+      .linkedin{
+        margin-left:0.1rem;
+      }
+     .github{
+      margin-left: 3rem;
+     }
+     .foot{
+      width:122%;
+     }
   }
 
   @media (min-width:768px) and (max-width:1024px){
-    
+    .wrap{
+      display: block;
+    }
 li{
     color: rgb(110, 64, 11);
     list-style: none;
@@ -810,18 +849,18 @@ li{
     
     #note{
         position: absolute;
-        right:-2rem;
-       top:9rem;
-        width:220px;
-        height:220px;
+        right:-1rem;
+       top:6rem;
+        width:120px;
+        height:120px;
     }
     #text{
     position:absolute;
-    left:14rem;
-    bottom:4rem;
+    left:7.3rem;
+    bottom:1rem;
     font-family: "Gochi Hand", cursive;
     font-weight:400;
-    font-size:1.1rem;
+    font-size:10px;
     font-style: normal;    
     }
     #yo{
@@ -929,8 +968,8 @@ li{
          position:absolute;
          top:11rem;
          left:10rem;
-         width:220px;
-         height:220px;
+         width:150px;
+         height:150px;
     }
     #text4{
     position:absolute;
@@ -990,10 +1029,10 @@ li{
             position: absolute;
             width:30px;
             height:30px;
-            margin-left:40rem;
+            margin-left:9rem;
         }
         .linkedin{
-          margin-left:40rem;
+          margin-left:5rem;
             width:30px;
             height:30px;
         }
@@ -1003,6 +1042,89 @@ li{
  }
  
  @media (min-width:1025px){
+  .wrap {
+    position: relative;
+    left:100px;
+    bottom:30rem;    
+  } 
+   .upper, .lower {
+    display:flex;
+    width:2000px;
+    justify-content: space-between;
+  }
+  .lower {
+    left:110px;
+    position: relative;
+    top:0px;
+  }
+  
+  .upper img, .lower img {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    animation: fadeIn, fadeOut;
+    animation-duration: 13s, 16s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes fadeIn {
+    10% {opacity: 1};
+    100% {opacity: 1};
+  }
+  @keyframes fadeOut {
+    25% {opacity: 0};
+    100% {opacity: 0};
+  }
+  
+  .upper img:first-child {
+    animation-delay: 0.5s, 3.5s;
+  }
+  .lower img:first-child {
+    animation-delay: 1s, 4s;  
+  }
+  .upper img:nth-child(2) {
+    animation-delay: 1.5s, 4.5s;
+  }
+  .lower img:nth-child(2) {
+    animation-delay: 2s, 5s;
+  }
+  .upper img:nth-child(3) {
+    animation-delay: 2.5s, 5.5s;
+  }
+  .lower img:nth-child(3) {
+    animation-delay: 3s, 6s;  
+  }
+  .upper img:nth-child(4) {
+    animation-delay: 3.5s, 6.5s;
+  }
+  .lower img:nth-child(4) {
+    animation-delay: 4s, 7s;
+  }
+  .upper img:nth-child(5) {
+    animation-delay: 4.5s, 7.5s;
+  }
+  .lower img:nth-child(5) {
+    animation-delay: 5s, 8s;  
+  }
+  .upper img:nth-child(6) {
+    animation-delay: 5.5s, 8.5s;
+  }
+  .lower img:nth-child(6) {
+    animation-delay: 6s, 9s;
+  } 
+   .upper img:nth-child(7) {
+    animation-delay: 6.5s, 9.5s;
+  }
+  .lower img:nth-child(7) {
+    animation-delay: 7s, 10s;  
+  }
+  .upper img:nth-child(8) {
+    animation-delay: 7.5s, 10.5s;
+  }
+  .lower img:nth-child(8) {
+    animation-delay: 8s, 11s;
+  }
+  
   li{
     color: rgb(110, 64, 11);
     list-style: none;
@@ -1156,8 +1278,8 @@ left:-4rem;
 }
 #text{
     position:absolute;
-   left:14rem;
-    bottom:4rem;
+   left:11rem;
+    bottom:1rem;
      font-family: "Gochi Hand", cursive;
     font-weight:400;
     font-size:1.1rem;
@@ -1190,8 +1312,8 @@ left:-4rem;
 
 #note2{
     position:absolute;
-    bottom:-2rem;
-    left:10rem;
+    bottom:-1rem;
+    left:8rem;
     width:220px;
     height:220px;
 }
@@ -1230,20 +1352,22 @@ left:-4rem;
 }
 
 #note3{
-    width: 220px;;
+  position:absolute;
+    width: 220px;
     height:220px;
-    top:10rem;
-    left:12rem;
+    top:6rem;
+    left:8rem;
 }
 #text3{
 position:absolute;
-bottom:3rem;
-left:15rem;
+bottom:4rem;
+left:11rem;
 font-family: "Gochi Hand", cursive;
 font-weight: 400;
  font-size: 1.1rem;
 font-style: normal;
 }
+
 .shop{
  position:relative;
  justify-items: center;
@@ -1266,8 +1390,8 @@ font-style: normal;
 }
  #note4{
      position:absolute;
-     top:11rem;
-     left:10rem;
+     top:8rem;
+     left:8rem;
      width:220px;
      height:220px;
 }
@@ -1306,7 +1430,8 @@ font-style: normal;
   bottom:-16rem;
   transform:rotate(89deg);
   opacity:0.5;
-  display: block;   }
+  display: block;
+   }
 #line4{
   position: absolute;
   height:37rem;
@@ -1316,4 +1441,4 @@ font-style: normal;
   opacity:0.5;
   display: block;   
 } 
-}
+ }

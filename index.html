@@ -16,25 +16,24 @@
 </head>
 <body>
     <header>
-        <div class="loader">
+        <!-- <div class="loader">
             <h1>WELCOME TO MY PORTFOLIO</h1>
-        </div>
-        <!--background image-->
-        <!-- <img src="assests/browny.jpg" alt="bg-img" id="bg-img">
-        <img src="assests/Capture1.PNG" alt="bg-img" id="bg-img1"> -->
+       img" id="bg-img1"> -->
         <!-- <nav> -->
         <div class="navigation">
              <!-- <ul> -->
-                <li> <a href="Home"></a>Home</li>
-                <li> <a href="AboutMe"></a>AboutMe </li>
-                <li><a href="Mywork"></a>MyWork</li>
+                <li> <a href="#Home">Home</a></li>
+                <li> <a href="#AboutMe">AboutMe</a></li>
+                <li><a href="#Myskills">Myskills</a></li>
+                <li><a href="#Mywork">MyWork</a></li>
+                <li><a href="#ContactMe">ContactMe</a></li>
             </div>
         <!-- </nav> -->
     </header>
     <main>
         <!--HomePage-->
         <section >
-            <div class="sec">
+            <div class="sec" id="Home">
                     <div class="infos">
                         <h1>  Hello,I'm Malak Dheyab <br>a front-end developer <br></h1>
                         <p>
@@ -45,7 +44,7 @@
             </div>
         </section>
         <!--AboutMe-->
-            <div class="aboutme">
+            <div class="aboutme" id="AboutMe">
          <img src="assests/det.png" id="detect" > 
        
      <div class="About">
@@ -57,10 +56,10 @@
      </div>
 </div>
 <!--Skills-->
-<div class="skills">
+<!-- <div class="skills"> -->
     
     <!-- <img src="assests/icon.png" id="magni"> -->
-    <div class="skillsContent">
+    <!-- <div class="skillsContent">
  <h1>skills</h1>
 <h4>Time Managment </h4> 
     <h4>Team work</h4>
@@ -72,7 +71,7 @@
 <div > 
     <img src="assests/hat.jpg" alt="hat" class="hat">
 </div> 
-</div>
+</div> -->
         <!-- <div class="break">
         <hr width="30%"> my works <hr width="30%" id="hr2">
     </div> -->
@@ -112,15 +111,15 @@
 
 <!--Myworks-->
         <section>
-            <div class="cards">
+            <div class="cards" id="Mywork">
                 <div class="flowersShop">
                     <img src="assests/pin.webp" alt="pin" id="pin" width="50" height="50">
                     <h2> flowersShop</h2>
                     <img src="assests/flower-shop.avif" id="flower">
-                    <!-- <img src="assests/note.png" alt="note" id="note"> -->
-                    <!-- <p id="text"> CASE1<br>
+                    <img src="assests/note.png" alt="note" id="note">
+                    <p id="text"> CASE1<br>
                     Accuse:Elegant <br>flower shop<br>
-                    </p> -->
+                    </p> 
                   </div>
     
                   <div class="Yu-Gi">
@@ -128,34 +127,37 @@
                     <h2> Yo-Gi-Oh </h2>
                     
                     <img src="assests/Yugioh.jpg" id="yo" alt="yogi">
-                   <!-- <img src="assests/note.png" alt="note" id="note2"> -->
-                  <!-- <p id="text2"> CASE2<br>
+                   <img src="assests/note.png" alt="note" id="note2">
+                  <p id="text2"> CASE2<br>
                     Accuse:brings back childhood <br>
                     memorey    
-                </p> -->
+                </p>
                   <div class="rabbit" >
                     <img src="assests/pin.webp" alt="pin" id="pin" width="50" height="50">
                     <h2> Rabbit app </h2>
                    <img src="assests/rabbit.jpg" alt="rabbit" id="rab">
-                   <!-- <img src="assests/note.png" alt="note" id="note3" > -->
-                   <!-- <p id="text3"> CASE3<br>
+                   <a href="https://github.com/ang99le/rabbit">
+                    <button id="rab-btn">Click me</button>
+                  </a>
+                   <img src="assests/note.png" alt="note" id="note3" >
+                   <p id="text3"> CASE3<br>
                     Accuse:Extra cuteness app<br>
-                </p> -->
+                </p>
                   </div>
                   <div class="shop">
                     <img src="assests/pin.webp" alt="pin" id="pin" width="50" height="50">
                     <h2> shop</h2>
                     <img src="assests/rabbit.jpg" alt="rabbit" id="shop">
-                    <!-- <img src="assests/note.png" alt="note" id="note4" > -->
-                    <!-- <p id="text4"> CASE3<br>
-                     Accuse:Extra cuteness app<br> -->
+                    <img src="assests/note.png" alt="note" id="note4" >
+                    <p id="text4"> CASE3<br>
+                     Accuse:Extra cuteness app<br>
                  </p>
                 </div>
                 <img src="assests/Line.png" id="Line1">
                   <img src="assests/Line.png" id="Line2">
                   <img src="assests/Line.png" id="Line3">
                   <img src="assests/Line.png" id="Line4"> 
-                  <!-- <img src="assests/Line.png" id="Line5"> -->
+               
     </div>
         </section>
     </main>
@@ -163,9 +165,12 @@
     <footer>
     <div class="foot">
         <!-- <div class="icons"> -->
+            <div class="foo">
+            <h2 id="contatct">You can contatct me on :</h2>
             <a href="https://github.com/" id="github"><img src="assests/github.png" class="github"></a>
             <a href="https://www.linkedin.com/feed/" id="github"><img src="assests/linkedin (1).png" class="linkedin"></a>
-        <!-- </div> -->
+        </div>
+            <!-- </div> -->
      
         <p id="footer">Copyright &copy; 2024 Angel </p>
 </div>
