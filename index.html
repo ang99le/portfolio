@@ -56,26 +56,6 @@
      </div>
 </div>
 <!--Skills-->
-<!-- <div class="skills"> -->
-    
-    <!-- <img src="assests/icon.png" id="magni"> -->
-    <!-- <div class="skillsContent">
- <h1>skills</h1>
-<h4>Time Managment </h4> 
-    <h4>Team work</h4>
-        <h4>Debugging</h4>
-        <h4>responsive design</h4>
-   
-     
-</div>
-<div > 
-    <img src="assests/hat.jpg" alt="hat" class="hat">
-</div> 
-</div> -->
-        <!-- <div class="break">
-        <hr width="30%"> my works <hr width="30%" id="hr2">
-    </div> -->
-
 <!--footprintAnimation-->
 <!-- <div class="wrap">
     <div class="upper">
@@ -160,22 +140,65 @@
                
     </div>
         </section>
+        <section>
+          <div class="ContactMe" id="ContactMe">
+            <h1>Get in Touch</h1>
+            
+              <div class="icons">
+              <a href="https://github.com/" id="github"><img src="portfolio/assests/git.png" class="github"></a>
+              <a href="https://www.linkedin.com/feed/" id="github"><img src="portfolio/assests/linked.png" class="linkedin"></a>
+          </div> 
+            <form action="" method="post" id="contatctform" > 
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="Name" size=40>
+                <br>
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" placeholder="subject" size=40>
+                <br>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="E-mail" size=40>
+                <br>
+                <textarea id="message" name="message" rows="10" cols="41">message</textarea>
+                <br>
+                <button id="form-btn" type="submit" value="submit">submit</button>
+            </form>
+        
+            </div>
+        </section>
     </main>
     <!--footer-->
+    <hr>
     <footer>
-    <div class="foot">
-        <!-- <div class="icons"> -->
-            <div class="foo">
-            <h2 id="contatct">You can contatct me on :</h2>
-            <a href="https://github.com/" id="github"><img src="assests/github.png" class="github"></a>
-            <a href="https://www.linkedin.com/feed/" id="github"><img src="assests/linkedin (1).png" class="linkedin"></a>
-        </div>
-            <!-- </div> -->
-     
+    <div class="foot">     
         <p id="footer">Copyright &copy; 2024 Angel </p>
 </div>
 
     </footer>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function () {
+  emailjs.init("ZoJ6lswOvIDQ0Fjum");
+})();
+</script>
+<script>
+
+
+        var templateParams = {
+    to_name: 'xyz',
+    subject:'jfei',
+    from_name: 'abc',
+    message_html: 'Please Find out the attached file'
+  };
+
+  emailjs.send('service_qp2i36y', 'template_vgvq30o', templateParams)
+    .then(function(response) {
+      console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+      console.log('FAILED...', error);
+    });
+  </script>
     <script src="portfolio.js"></script>
 
    

@@ -6,6 +6,7 @@ body{
     margin:0;
     padding: 0;
     width:100%;
+    overflow-x: hidden;
 }
   .loader {
     font-weight: 700;
@@ -143,14 +144,14 @@ font-family: "Arsenal", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size:20px;
-  justify-content:space-between;
-  padding-left:0.5rem;
+  padding-left:10px;
 }
 a{
-    padding:0.5rem;
+    padding:0.2rem;
     list-style:none;
     color: #53340a;
     text-decoration:none;
+    justify-content: center;
 }
 
 a:hover{
@@ -159,10 +160,9 @@ a:hover{
     }
 
    .foot{
-    background-color: rgb(216, 194, 161);
-    color:#793f10be;
-    width:99%;
-    padding:5px;
+    background-color:  #b39363;
+    width:100%;
+    padding:15px;
        }
        .github{
      
@@ -431,20 +431,42 @@ a:hover{
      #line4{
          display: none;
      } 
-     .foo{
-      align-content: center;
-      justify-content: center;
-      margin-left:40%;
-    }
+
     .linkedin{
       margin-left:0.1rem;
     }
    .github{
     margin-left:4rem;
    }
-   /* #contact{
-    font-size:3px;
-   } */
+   .ContactMe h1{
+    text-align: center;
+  }
+  .ContactMe{
+    margin-top:4rem;
+    background-color: #b39363;
+  }
+  #contatctform{
+  text-align: center;
+  }
+  #username{
+    margin-bottom:7px;
+    padding:7px;
+  }
+  #Subject{
+    margin-bottom:7px;
+    padding:7px;
+  }
+  #email{
+    margin-bottom:7px;
+    padding:7px;
+  }
+  #form-btn{
+  margin-top:5px;
+  margin-bottom: 7px;
+   text-align: center;
+   border-radius:12px;
+   padding:10px;
+  }
   @media(min-width:500px) and (max-width:767px){
     .wrap{
       display: block;
@@ -1131,9 +1153,10 @@ li{
     font-family: "Arsenal", sans-serif;
       font-weight: 500;
       font-style: normal;
-      font-size:30px;
+      font-size:19px;
       justify-content:space-between;
-      padding-left:5rem;
+      padding-left:3rem;
+  
     }
 
 #bg-img1{
@@ -1232,7 +1255,7 @@ li{
     background-color: rgb(216, 194, 161);
      border:7px solid #793f10be;
      width:95%;
-     margin-left:2rem;
+     margin-left:1rem;
      height:65rem;
      display:grid;
      grid-template-columns: repeat(5, 1fr);
@@ -1441,4 +1464,5 @@ font-style: normal;
   opacity:0.5;
   display: block;   
 } 
+
  }

@@ -1,20 +1,20 @@
-// document.onreadystatechange = function() {
-//     if (document.readyState !== "complete") {
-//         document.querySelector(
-//           "body").style.visibility = "hidden";
-//         document.querySelector(
-//           ".loader").style.visibility = "visible";
-//     } else {
-//         document.querySelector(
-//           ".loader").style.display = "none";
-//         document.querySelector(
-//           "body").style.visibility = "visible";
-//     }
-// };
+// document
+// getElementById("contatctform")
+// addEventListener("submit", function (event) {
+//   event.preventDefault();
 
-// function navigatelinks(link){
-//   var a=document.createElement("a");
-//   a.href=link.href;
-//   location.replace(a.href);
-//   return false;
-// }
+//   const serviceID = "service_qp2i36y";
+//   const templateID = "template_vgvq30o";
+
+//   // send the email here
+//   emailjs.sendForm(serviceID, templateID, this).then(
+//     (response) => {
+//       console.log("SUCCESS!", response.status, response.text);
+//       alert("SUCCESS!");
+//     },
+//     (error) => {
+//       console.log("FAILED...", error);
+//       alert("FAILED...", error);
+//     }
+//   );
+// });
